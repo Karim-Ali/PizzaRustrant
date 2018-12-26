@@ -1,0 +1,44 @@
+* {box-sizing: border-box}
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif }
+.bgimg2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(onepage_restaurant.jpg);
+    min-height: 100%;
+}
+.container{
+    position: relative;
+    padding: 16px;
+}
+.message{
+    opacity: 0.85;
+    width:  80%;
+  height: 400px;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0 22px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.message:hover{
+    opacity: 1;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  position: relative;
+  left: 402px;
+}
